@@ -1,0 +1,14 @@
+IglooScore1
+	It is only adding up the second and third argument instead of the two largest number
+	There is an error when there isn’t three agreements
+	There is an error when one of the arguments isn’t an integer 
+	There is an error when a negative number is inputted
+	There is an error when no number is inputted
+IglooScore2
+	There was an error when the two bigger number are the first and third arguments
+	If all of the numbers are the same number 
+	There is an error when a negative number is inputted
+	There is an error when there isn’t three agreements
+	There is an error when one of the arguments isn’t an integer
+	There is an error when the one of the numbers inputted are over 50 or under 0
+	There is an error when nothing is inputted 
