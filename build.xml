@@ -10,7 +10,7 @@
    </taskdef>
 
    <!-- standard compile task, but turn debugging on for source viewing -->
-   <target name="compile" description="compile the source" >
+   <target name="compile" description="compile the source">
       <javac srcdir="." includeantruntime="false" debug="true" />
    </target>
 
@@ -137,7 +137,7 @@
    	  </java>
  	  <echo message="TEST IglooScore2:  "/>
  	  <java classname="IglooScore2" fork="true">
- 	    <arg value="\u0000"/><arg value="\u0000"/><arg value="\u0000"/><arg value="\u0000"/>
+ 	    <arg value=""/><arg value=""/><arg value=""/><arg value=""/>
  	    <jvmarg line="-javaagent:${jacocodir}/jacocoagent.jar"/>
  	  </java>
    </target>
